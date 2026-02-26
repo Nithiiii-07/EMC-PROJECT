@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Booking & Contact</title>
+</head>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #f4f6f9;
+}
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to right, #1abc9c, #3498db);
+    color: white;
+}
+.form-section {
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+}
+.form-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: #3498db;
+}
+.btn {
+    width: 100%;
+    padding: 12px;
+    background: #1abc9c;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #16a085;
+}
+.contact-section {
+    text-align: center;
+    padding: 40px 20px;
+    background: #ecf0f1;
+}
+.contact-section h2 {
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #2c3e50;
+    color: white;
+}
+</style>
+<body>
+    <section class="hero">
+        <h1>Book Your Appointment</h1>
+        <p>Fill the form below to reserve your slot</p>
+    </section>
+    <section class="form-section">
+        <div class="form-container">
+            <h2>Booking Form</h2>
+            <form>
+                <div class="form-group">
+                    <label>Full Name</label>
+                    <input type="text" placeholder="Enter your name" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Phone Number</label>
+                    <input type="tel" placeholder="Enter your phone number" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Select Service</label>
+                    <select required>
+                        <option value="">Choose a service</option>
+                        <option>Room Booking</option>
+                        <option>Tour Booking</option>
+                        <option>Consultation</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Booking Date</label>
+                    <input type="date" required>
+                </div>
+                <div class="form-group">
+                    <label>Message</label>
+                    <textarea rows="4" placeholder="Any special request..."></textarea>
+                </div>
+                <button type="submit" class="btn">Confirm Booking</button>
+            </form>
+        </div>
+    </section>
+    <section class="contact-section">
+        <h2>Contact Us</h2>
+        <p>Email: booking.emc@gmail.com.com</p>
+        <p>Phone: +91 7200097246</p>
+        <p>Location: Chennai, India.</p>
+    </section>
+    <footer>
+        <p>©2026 EMCBOOKING.All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
