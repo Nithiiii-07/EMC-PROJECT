@@ -1,0 +1,86 @@
+CTYPE html>
+<html>
+	<head>
+		    <title>Travel Gallery</title>
+		        <style>
+        * {
+		            margin: 0;
+			                padding: 0;
+					            box-sizing: border-box;
+						                font-family: Arial, sans-serif;
+								        }
+
+	        body {
+			            background-color: #f4f4f4;
+				            }
+
+		        header {
+				            background-color: #008CBA;
+					                color: white;
+							            text-align: center;
+								                padding: 20px;
+										        }
+
+			        .gallery {
+					            padding: 40px;
+						                text-align: center;
+								        }
+
+				        .gallery h1 {
+						            margin-bottom: 30px;
+							            }
+
+					        .gallery-grid {
+							            display: grid;
+								                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+										            gap: 20px;
+											            }
+
+						        .gallery-grid img {
+								            width: 100%;
+									                height: 200px;
+											            object-fit: cover;
+												                border-radius: 10px;
+														            transition: transform 0.3s ease;
+															            }
+
+							        .gallery-grid img:hover {
+									            transform: scale(1.05);
+										            }
+
+								        footer {
+										            background-color: #008CBA;
+											                color: white;
+													            text-align: center;
+														                padding: 15px;
+																            margin-top: 30px;
+																	            }
+									    </style>
+	</head>
+
+	<body>
+
+		<header>
+			    <h2>Dream Travel Gallery</h2>
+		</header>
+
+		<section class="gallery">
+			    <h1>Explore Beautiful Destinations</h1>
+
+			        <div class="gallery-grid">
+					        <img src="tajmahal.jpg" alt="Taj Mahal">
+						        <img src="meenakshi.jpg" alt="Meenakshi Temple">
+							        <img src="mysore.jpg" alt="Mysore Palace">
+								        <img src="indiagate.jpg" alt="India Gate">
+									        <img src="goa.jpg" alt="Goa Beach">
+										        <img src="manali.jpg" alt="Manali Hills">
+											    </div>
+		</section>
+
+		<footer>
+			    <p>© 2026 Dream Travel | All Rights Reserved</p>
+		</footer>
+
+	</body>
+</html>
+
