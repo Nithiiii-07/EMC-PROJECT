@@ -125,7 +125,7 @@ input:focus, select:focus, textarea:focus {
 .about-body {
 	padding-bottom: 300px;
 	padding-top: 50px;
-	background-image: url("https://raw.githubusercontent.com/Nithiiii-07/EMC-PROJECT/main/about-bg6.jpg");
+	background-image: url("images/about-bg6.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
