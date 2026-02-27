@@ -1,85 +1,36 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		    <title>Travel Gallery</title>
-		        <style>
-        * {
-		            margin: 0;
-			                padding: 0;
-					            box-sizing: border-box;
-						                font-family: Arial, sans-serif;
-								        }
+<html lang="en">
+<head>
+  <title>Gallery | Dream Travel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-	        body {
-			            background-color: #f4f4f4;
-				            }
+<header class="navbar">
+  <h2>Dream Travel</h2>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="Booking.html">Book Now</a>
+  </nav>
+</header>
 
-		        header {
-				            background-color: #008CBA;
-					                color: white;
-							            text-align: center;
-								                padding: 20px;
-										        }
+<section class="page-title">
+  <h1>Travel Gallery</h1>
+</section>
 
-			        .gallery {
-					            padding: 40px;
-						                text-align: center;
-								        }
+<section class="gallery-grid">
+  <img src="images/tajmahal.png">
+  <img src="images/meenakshi.jpg">
+  <img src="images/mysore.jpg">
+  <img src="images/indiagate.jpg">
+  <img src="images/goa.jpg">
+  <!-- <img src="images/manali.jpg"> -->
+</section>
 
-				        .gallery h1 {
-						            margin-bottom: 30px;
-							            }
+<footer>
+  <p>© 2026 Dream Travel</p>
+</footer>
 
-					        .gallery-grid {
-							            display: grid;
-								                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-										            gap: 20px;
-											            }
-
-						        .gallery-grid img {
-								            width: 100%;
-									                height: 200px;
-											            object-fit: cover;
-												                border-radius: 10px;
-														            transition: transform 0.3s ease;
-															            }
-
-							        .gallery-grid img:hover {
-									            transform: scale(1.05);
-										            }
-
-								        footer {
-										            background-color: #008CBA;
-											                color: white;
-													            text-align: center;
-														                padding: 15px;
-																            margin-top: 30px;
-																	            }
-									    </style>
-	</head>
-
-	<body>
-
-		<header>
-			    <h2>Dream Travel Gallery</h2>
-		</header>
-
-		<section class="gallery">
-			    <h1>Explore Beautiful Destinations</h1>
-
-			        <div class="gallery-grid">
-					        <img src="tajmahal.jpg" alt="Taj Mahal">
-						        <img src="meenakshi.jpg" alt="Meenakshi Temple">
-							        <img src="mysore.jpg" alt="Mysore Palace">
-								        <img src="indiagate.jpg" alt="India Gate">
-									        <img src="goa.jpg" alt="Goa Beach">
-										        <img src="manali.jpg" alt="Manali Hills">
-											    </div>
-		</section>
-
-		<footer>
-			    <p>© 2026 Dream Travel | All Rights Reserved</p>
-		</footer>
-
-	</body>
+</body>
 </html>
