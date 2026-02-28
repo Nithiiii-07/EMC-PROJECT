@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dream Travel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            background:#f4f4f4;
+        }
+
+        nav{
+            background:#333;
+            padding:15px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            margin:0 15px;
+            text-decoration:none;
+            font-size:18px;
+        }
+
+        header{
+            background:url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center/cover;
+            height:80vh;
+            color:white;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            flex-direction:column;
+            text-align:center;
+        }
+
+        header h1{
+            font-size:50px;
+            margin-bottom:20px;
+        }
+
+        section{
+            padding:50px 20px;
+            text-align:center;
+        }
+
+        .places{
+            display:flex;
+            justify-content:center;
+            flex-wrap:wrap;
+        }
+
+        .card{
+            width:300px;
+            margin:20px;
+            background:white;
+            border-radius:10px;
+            overflow:hidden;
+            box-shadow:0 4px 8px rgba(0,0,0,0.2);
+            transition:0.3s;
+        }
+
+        .card:hover{
+            transform:scale(1.05);
+        }
+
+        .card img{
+            width:100%;
+            height:200px;
+            object-fit:cover;
+        }
+
+        .card h3{
+            padding:15px;
+        }
+
+        .offers{
+            background:#ffffff;
+            margin-top:20px;
+        }
+
+        .offers ul{
+            list-style:none;
+            margin-top:20px;
+        }
+
+        .offers li{
+            margin:10px 0;
+            font-size:18px;
+        }
+
+        footer{
+            background:#333;
+            color:white;
+            padding:15px;
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="details.html">Details</a>
+    
+</nav>
+
+<header>
+    <h1>Dream Travel</h1>
+    <p><B>Your Gateway to  Adventures trips<B></B></p>
+</header>
+
+<section>
+    <h2>Popular South Indian Destinations</h2>
+    <div class="places">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1593696140826-c58b021acf8b" alt="Ooty">
+            <h3>Ooty</h3>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1587135941948-670b381f08ce" alt="Munnar">
+            <h3>Munnar</h3>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944" alt="Kodaikanal">
+            <h3>Kodaikanal</h3>
+        </div>
+
+    </div>
+</section>
+
+<section class="offers">
+    <h2>Special Offers & Discounts</h2>
+    <ul>
+        <li>🌿 25% Discount on Ooty Honeymoon Package</li>
+        <li>🏞️ 20% Off on Munnar Family Trip</li>
+        <li>🌄 Flat ₹2000 Discount on Kodaikanal Weekend Tour</li>
+        <li>🎉 Early Booking Offer – Extra 10% Off</li>
+    </ul>
+</section>
+
+<footer>
+    <p>© 2026 Dream Travel | Best of Booking in Dream Travel</p>
+</footer>
+
+</body>
+</html>
