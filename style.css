@@ -183,7 +183,88 @@ footer {
 .light-bg {
   background: #f5ede0;
 }
+/* HOME PAGE */
 
+/* HERO */
+.home-hero {
+  height: 90vh;
+  background: linear-gradient(
+      rgba(0,0,0,0.55),
+      rgba(0,0,0,0.6)
+    ),
+    url("images/home-hero.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+/* FEATURES */
+.home-features {
+  padding: 60px 8%;
+  text-align: center;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.feature-card {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+/* PACKAGES */
+.home-packages {
+  padding: 60px 8%;
+  background: #f5ede0;
+  text-align: center;
+}
+
+.package-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.package-card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.small-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #3498db;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* CTA */
+.home-cta {
+  padding: 60px 8%;
+  text-align: center;
+}
 /* BANNER */
 .banner {
   height: 90vh;
